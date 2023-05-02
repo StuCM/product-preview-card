@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: hsl(228, 12%, 48%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    display: flex;
+    background-color: white;
+    max-width: 600px;
+    border-radius: 0.9rem;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 15px 0 0 15px;
+}
+
+section {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1, .price {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+
+h1 {
+    color: hsl(212, 21%, 14%);
+    margin: 1.2rem 0 1.2rem 0;
+    line-height: 100%;
+}
+
+p {
+    line-height: 1.4rem;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+    color: white;
+    font-size: 0.9rem;
+    background-color: hsl(158, 36%, 37%); 
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+button::before {
+    content: url(./images/icon-cart.svg);
+    margin-right: 0.6rem;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 25%)
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+}
+
+.price span {
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    vertical-align: top;
+    margin-left: 1.2rem;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.preview {
+    font-size: 0.75rem;
+    letter-spacing: 0.3rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 1rem;
+}
