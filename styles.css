@@ -51,6 +51,7 @@ button {
     color: white;
     font-size: 0.9rem;
     background-color: hsl(158, 36%, 37%); 
+    width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
 }
