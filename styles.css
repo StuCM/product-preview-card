@@ -1,4 +1,4 @@
-html {
+html, body {
     box-sizing: border-box;
 }
 
@@ -11,7 +11,6 @@ body {
     align-items: center;
     height: 100vh;
     background-color: hsl(30, 38%, 92%);
-    margin: 0;
 }
 
 main {
@@ -23,6 +22,7 @@ main {
 
 img {
     max-width: 50%;
+    object-fit: cover;
     border-radius: 15px 0 0 15px;
 }
 
@@ -51,7 +51,6 @@ button {
     color: white;
     font-size: 0.9rem;
     background-color: hsl(158, 36%, 37%); 
-    width: 100%;
     padding: 1rem;
     border-radius: 0.5rem;
 }
@@ -93,7 +92,6 @@ button:hover {
 
 footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     margin: 1rem;
@@ -102,7 +100,7 @@ footer {
 @media only screen and (max-width: 480px) {
     main {
         flex-wrap: wrap;
-        margin: 1rem;
+        margin: 1rem 1rem 3rem 1rem;
     }
 
     main img {
